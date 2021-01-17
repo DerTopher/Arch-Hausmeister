@@ -16,5 +16,8 @@ echo -e 'Versuche den Cache von Pacaur zu leeren. Befehle:"sudo pacaur -Scc" und
 yes | sudo pacaur -Scc
 yes | pacaur -Sac
 
+echo -e 'Versuche den Cache von yay zu leeren. Befehle:"sudo yay -Scc" und "yay -Sac"'
+yes | sudo yay -Scc
+yes | yay -Sac
 
 echo "Rechner aufgeräumt!"
